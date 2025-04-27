@@ -1,16 +1,39 @@
 {
   "name": "mazaalai-match",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Fuzzy matching library using Levenshtein distance for scoring similar records like names, dates, and PEP data.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test": "echo \"No test defined\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ganpurev99/mazaalai-match.git"
+  },
+  "keywords": [
+    "fuzzy",
+    "matching",
+    "levenshtein",
+    "names",
+    "sanctions",
+    "PEP",
+    "similarity",
+    "mongodb",
+    "match-score"
+  ],
+  "author": "Gavar-99",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
   "devDependencies": {
     "@types/node": "^22.15.2",
     "prettier": "^3.5.3",
