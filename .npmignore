@@ -1,0 +1,32 @@
+# Ignore the following files when publishing to NPM
+
+# Node modules
+node_modules/
+
+# TypeScript source files
+src/
+
+# Build output files
+dist/
+
+# Prettier config files (not needed in NPM package)
+.prettierignore
+.prettierrc
+
+# IDE & editor files
+.vscode/
+.idea/
+
+# Test files
+*.test.ts
+*.spec.ts
+
+# Environment files
+*.env
+
+# Version control files
+.git/
+.gitignore
+
+# Logs
+npm-debug.log
